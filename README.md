@@ -3,7 +3,7 @@
 This project demonstrates a data engineering pipeline designed on CentOS 6.5 with Hadoop and other Big Data tools. The pipeline pulls data from an external API, processes it in real-time, and stores it in a cloud database.
 
 **Pipeline Summary:**
-1. **Data Collection**: A Python script pulls user data from [RandomUser API](https://randomuser.me/api).
+1. **Data Collection**: A Python script pulls user data from [Amercian Population](https://datausa.io/api/data?drilldowns=Nation&measures=Population).
 2. **Ingestion**: Apache Flume ingests the data and sends it to Apache Kafka.
 4. **Storage & Processing**: Flume transfers a copy of the data from Kafka (as a consumer) to HDFS, while Spark processes data from Kafka (as a consumer) in real-time.
 5. **Storage in Cloud**: Processed data is stored in InfluxDB on the cloud.
