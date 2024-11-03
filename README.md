@@ -10,7 +10,7 @@ This project demonstrates a data engineering pipeline designed on CentOS 6.5 wit
 6. **Analysis & Visualization**:  Data is analyzed and visualized using Grafana Cloud, providing real-time insights and dashboards for monitoring user metrics and trends.
 
 ## Project Architecture
-- **Python Script**: Fetches JSON data from RandomUser API and saves it to the local file system.
+- **Python Script**: Fetches JSON data from  American Population and saves it to the local file system.
 - **Apache Flume**: Captures JSON data from the file system, sends it to Kafka, and writes a copy to HDFS.
 - **Apache Kafka**: Manages data streaming and messaging between producers and consumers.
 - **Apache Spark**: Consumes data from Kafka for real-time processing.
