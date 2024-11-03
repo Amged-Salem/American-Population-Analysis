@@ -437,8 +437,8 @@ Follow the [InfluxDB installation guide](https://docs.influxdata.com/influxdb/cl
    
    Check your InfluxDB Cloud dashboard to ensure data is being written to your specified bucket.
    
-![InfluxDB Results](Garafana1.jpeg) 
-![InfluxDB Results](Garafana2.jpeg)
+![InfluxDB Results](Garafana1.png) 
+![InfluxDB Results](Garafana2.png)
 
 ---
 ## Data Analysis & Visualization with Grafana
